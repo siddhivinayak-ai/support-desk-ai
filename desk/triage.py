@@ -11,7 +11,7 @@ LABELS = ("low", "normal", "high", "urgent")
 
 def classify_urgency(subject, body):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model="gpt-5.6-terra",
         messages=[
             {
                 "role": "system",
