@@ -7,7 +7,7 @@ client = OpenAI()
 
 def illustrate_article(title):
     result = client.images.generate(
-        model="gpt-image-1",
+        model="gpt-image-2",
         prompt=f"A friendly flat illustration for a help-center article titled '{title}'. No text.",
         size="1024x1024",
     )
