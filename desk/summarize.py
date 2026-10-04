@@ -8,7 +8,7 @@ from openai import OpenAI
 
 client = OpenAI()
 
-SUMMARY_MODEL = "gpt-4-0613"
+SUMMARY_MODEL = "gpt-5.6-sol"
 
 SYSTEM_PROMPT = (
     "You summarize customer support tickets for agents. "
